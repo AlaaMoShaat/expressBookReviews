@@ -109,7 +109,7 @@ public_users.get("/title/:title", (req, res) => {
     } else {
       return res.status(404).json({ message: "No books found for this title" });
     }
-  }, 1000); // محاكاة استجابة غير متزامنة
+  }, 1000);
 });
 
 // Task 5: Get book reviews
